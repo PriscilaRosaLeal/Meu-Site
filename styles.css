@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #333;
-    color: white
+    color: white;
     padding: 10px 0;
     text-align: center;
 }
@@ -29,14 +29,13 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #destaque {
     text-align: center;
     padding: 80px ;
-    width: 100%;
-    height: 800px;
+    height: 400px;
     background: url('/Imagens/aqualinda.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -44,7 +43,7 @@ nav ul li a {
 #destaque h1 {
     font-size: 80px;
     font-family: sans-serif;
-    color: rgb(8, 8, 73);
+    color: rgb(14, 165, 185);
 }
 
 #texto-destaque {
@@ -87,11 +86,11 @@ nav ul li a {
 
 .icones a {
     text-decoration: none;
-    color: inherit; /* Mantém a cor original do ícone */
+    color: inherit; 
 }
 
 .icones i {
-    font-size: 50px; /*tamanho do ícone*/
+    font-size: 50px; 
 
 }
 
